@@ -9,7 +9,7 @@ body {
     border-radius: 20px;
     height: 320px;
     width: 320px;
-    background-color: #212529;
+    background-color:#292829 ;
 }
 
 .buttons {
@@ -25,18 +25,40 @@ body {
 }
 .cloneButton{
     margin-bottom: 10px;
-    border: none;
+    border: 1px solid #FFA000;
+    transition:.4s;
     height: 60px;
     width: 100px;
-    border-radius: 20px;
-    background-color: #8d99ae;
-    
+    border-radius: 16px;
+    background-color: #F4CE14;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+.cloneButton :hover {
+    transition: .2s;
+    background: #FFA000;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFA000;
+    transform: translate(-3px);
+}
+.cloneButton:active {
+    transition: .2s;
+    background: #FFA000;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFA000;
 }
 .donateButton{
-    border:#495057;
+    border:#45474B;
     height: 50px;
     width: 100px;
     border-radius: 20px;
     background-color: rgb(54, 150, 54);
+    cursor: pointer;
 
+}
+.donateButton:active {
+    transition: .2s;
+    background: #84bc36;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFA000;
 }
